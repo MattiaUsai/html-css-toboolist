@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: blue;
 }
 
 .logo-section{
@@ -21,4 +25,47 @@
     display: inline;
     font-size: 500%;
     vertical-align: middle;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-left: 60px;
+}
+.container.list{
+    height: 800px;
+    margin-top: 10px;
+}
+.button.container{
+    margin-top: 20px;
+    height: 100px;
+}
+.title-list{
+    font-size: xx-large;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.list{
+    font-size: x-large;
+    list-style-type: none;
+    margin-block: 0;
+    line-height: 50px;
+}
+
+.cross{
+    color: red;
+}
+.check{
+    color: green;
+}
+.marker{
+    background-color: aqua;
+    border-radius: 20%;
+    font-size: small;
+    padding: 5px;
+    color: white;
+    
 }
