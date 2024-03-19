@@ -5,10 +5,12 @@
     
 }
 
+/* imposta il colore dello sfondo */
 body{
     background-color: lightgray;
 }
 
+/* sezione logo e testo logo */
 .logo-section{
     margin-top: 0;
     width: 100%;
@@ -18,17 +20,23 @@ body{
     margin-bottom: 100px;
     
 }
+
+/* logo img  */
 .logo-img{
     width: 100px;
     height: 100px;
     vertical-align: middle;
 
 }
+
+/* testo del logo 3 */
 .logo-text{
     display: inline;
     font-size: 500%;
     vertical-align: middle;
 }
+
+/* container principale per centrare tutto */
 .container{
     width: 70%;
     margin: auto;
@@ -37,10 +45,14 @@ body{
     border-radius: 10px;
     
 }
+
+/* contenitore x la lista */
 .container.list{
     height: 800px;
     margin-top: 10px;
 }
+
+/* contenitore bottoni */
 .button.container{
     margin-top: 20px;
     height: 60px;
@@ -48,6 +60,8 @@ body{
    
     vertical-align: middle;
 }
+
+/* bottoni */
 .add.button{
     width: 10%;
     height: 40px;
@@ -58,14 +72,16 @@ body{
     text-transform: uppercase;
     
 }
+
+/* titolo delle liste */
 .title-list{
     font-size: xx-large;
     font-weight: bold;
-    
-    text-transform: uppercase;
     margin-block-start: 0;
     margin-block-end: 0;
 }
+
+/* liste  */
 .list{
     font-size: x-large;
     list-style-type: none;
@@ -76,12 +92,19 @@ body{
     font-weight: 500;
 }
 
+/* simboli cambio colore */
+.simbols.arrow{
+    font-style: normal;
+    
+}
 .cross{
     color: red;
 }
 .check{
     color: green;
 }
+
+/* parole evidenziate  */
 .marker{
     background-color: aqua;
     border-radius: 20%;
@@ -90,18 +113,18 @@ body{
     color: white;
     margin: 10px;
 }
-.editorial{
+.editorial.marker{
     background-color: blueviolet;
 }
-.sales{
+.sales.marker{
     background-color: gray;
 }
-.recruiting{
+.recruiting.marker{
     background-color: red;
 }
-.social{
+.social.marker{
     background-color: green;
 }
-.mobile{
+.mobile.marker{
     background-color: blue;
 }
