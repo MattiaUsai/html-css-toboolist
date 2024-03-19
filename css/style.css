@@ -67,5 +67,20 @@ body{
     font-size: small;
     padding: 5px;
     color: white;
-    
+    margin: 10px;
+}
+.editorial{
+    background-color: blueviolet;
+}
+.sales{
+    background-color: gray;
+}
+.recruiting{
+    background-color: red;
+}
+.social{
+    background-color: green;
+}
+.mobile{
+    background-color: blue;
 }
